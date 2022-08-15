@@ -1,0 +1,92 @@
+body{font-family: 'Alegreya Sans SC', sans-serif;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-image:linear-gradient(hsla(113, 73%, 30%, 0.802),hsla(241, 60%, 69%, 0.583)), url(https://www.viveusa.mx/sites/default/files/styles/detalle_nota_1080x666_v22/public/field/image/tiosamorigen_0.jpg?itok=OpX7QcBO);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;}
+
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+   .escudo{
+       width: 50px;  
+   }
+
+    #title{
+      font-family: 'Alegreya Sans SC', sans-serif;
+      font-size: 25px;
+      color: white;
+      width:100%;
+      text-align: center;
+      margin: 0;
+      line-height:50px;
+    
+    }
+    
+    .ahora{
+        margin: auto;
+        font-size:20px;
+        color: rgb(252, 255, 64);
+    }
+    #description{
+        display: block;
+        text-align:center;
+        color: aliceblue;
+        font-weight: bold;    
+    }
+    #name, #email, #number{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .input-radio, .input-checkbox{
+        display: block;
+        margin-right: 0.625rem;
+        
+    }
+    
+    form{
+        background-color: hsla(0, 0%, 24%, 0.912);
+        border-radius: 3px;
+        padding: 20px;
+        display: block;
+        height: auto;
+    
+    }
+    .rama{
+        color:rgb(252, 255, 64);
+        font-weight: 600;
+    }
+    .group-form p {
+        font-weight: bold;
+    }
+    #comments{
+        width: 100%;
+        min-height: 120px;
+        resize: vertical;
+    }
+    .group-form button{
+        width: 100%;
+        margin-top: 5px;
+        height: 40px;
+        background: rgb(252, 255, 64);
+        font-family: 'Alegreya Sans SC', sans-serif;
+       font-weight: bold; 
+    }
+    #dropdown{
+        width: 100%;
+    }
+     
+   label{
+       display: flex;
+   }
+   footer a{text-decoration: none;
+   color: white;
+   font-weight:bold;
+   }
+   footer{
+       text-align: center;}
